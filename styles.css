@@ -16,7 +16,7 @@
   bottom: 20px;
   left: 30px;
 } */
-* {
+/* * {
   box-sizing: border-box;
 }
 .square {
@@ -45,4 +45,95 @@ footer {
 .container > .green {
   background-color: green;
   float: left;
+} */
+/* .header {
+  height: 50px;
+  background-color: yellow;
+}
+.content {
+  height: 500px;
+  background-color: pink;
+  float: left;
+  width: 80%;
+}
+.sidebar {
+  height: 500px;
+  background-color: grey;
+  float: left;
+  width: 20%;
+}
+.footer {
+  height: 50px;
+  background-color: green;
+  clear: both;
+} */
+/* * {
+  box-sizing: border-box;
+}
+.block {
+  height: 200px;
+  width: 20%;
+  float: left;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.black {
+  background-color: black;
+} */
+* {
+  box-sizing: border-box;
+}
+.header {
+  height: 40px;
+  width: 100%;
+  background-color: darkturquoise;
+  position: fixed;
+}
+.navigation {
+  height: 40px;
+}
+.nav-list {
+}
+.nav-item {
+  color: white;
+  margin-left: 16px;
+  display: inline;
+}
+.content {
+  background-color: beige;
+  height: 5000px;
+}
+.head {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+}
+.ear {
+  width: 40px;
+  height: 60px;
+  background-color: brown;
+}
+.ear_right {
+}
+.ear_left {
+}
+.eye {
+  background-color: grey;
+  top: 80px;
+  left: 40px;
+  right: 40px;
+}
+.eye_right {
+}
+.eye_left {
 }

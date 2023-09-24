@@ -90,50 +90,67 @@ footer {
 .black {
   background-color: black;
 } */
-* {
-  box-sizing: border-box;
-}
+/* ---lesson-hw-2----  */
+
 .header {
+  background-color: darkturquoise;
   height: 40px;
   width: 100%;
-  background-color: darkturquoise;
   position: fixed;
 }
-.navigation {
-  height: 40px;
-}
 .nav-list {
+  height: 40px;
+  display: flex;
+  list-style-type: none;
+  position: relative;
+  margin: 0;
+  top: 10px;
 }
 .nav-item {
   color: white;
   margin-left: 16px;
-  display: inline;
 }
 .content {
   background-color: beige;
   height: 5000px;
+  position: static;
 }
 .head {
   width: 200px;
   height: 200px;
   background-color: aquamarine;
+  position: relative;
+  top: 50%;
+  transform: translateX(-50%);
+  left: 50%;
+  transform: translateY(-50%);
 }
 .ear {
   width: 40px;
   height: 60px;
   background-color: brown;
+  position: relative;
 }
 .ear_right {
+  left: -40px;
+  top: -60px;
 }
 .ear_left {
+  left: 200px;
+  bottom: 120px;
 }
 .eye {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
   background-color: grey;
-  top: 80px;
-  left: 40px;
-  right: 40px;
+  position: relative;
 }
 .eye_right {
+  bottom: 40px;
+  left: 40px;
 }
 .eye_left {
+  bottom: 70px;
+  left: 130px;
 }
